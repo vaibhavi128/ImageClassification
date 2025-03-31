@@ -1,0 +1,37 @@
+[
+    {
+        "name": "John Doe",
+        "age": 32,
+        "image_url": "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg"
+    },
+    {
+        "name": "Jane Smith",
+        "age": 28,
+        "image_url": "https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg"
+    },
+    {
+        "name": "Michael Johnson",
+        "age": 45,
+        "image_url": "https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg"
+    },
+    {
+        "name": "Emily Davis",
+        "age": 24,
+        "image_url": "https://images.pexels.com/photos/712521/pexels-photo-712521.jpeg"
+    },
+    {
+        "name": "Robert Wilson",
+        "age": 38,
+        "image_url": "https://images.pexels.com/photos/1680172/pexels-photo-1680172.jpeg"
+    },
+    {
+        "name": "Vaibhavi Kolhe",
+        "age": 20,
+        "image_url": "uploads/photo1.jpg"
+    },
+    {
+        "name": "Piyusha Bhadange",
+        "age": 22,
+        "image_url": "uploads/photo2.jpg"
+    }
+]

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Person Identification</title>
+    <!-- Production version of Tailwind CSS -->
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <!-- Favicon -->
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        .drop-zone {
+            border: 2px dashed #9CA3AF;
+            transition: all 0.3s ease;
+        }
+        .drop-zone.active {
+            border-color: #3B82F6;
+            background-color: #EFF6FF;
+        }
+    </style>
+</head>
+<body class="bg-gray-50 min-h-screen">
+    <header class="bg-blue-600 text-white shadow-md">
+        <div class="container mx-auto px-4 py-6">
+            <h1 class="text-3xl font-bold flex items-center">
+                <i class="fas fa-user-circle mr-3"></i>
+                Person Identification
+            </h1>
+        </div>
+    </header>
+
+    <main class="container mx-auto px-4 py-8">
+        <div class="max-w-3xl mx-auto bg-white rounded-xl shadow-md overflow-hidden p-6">
+            <div class="text-center mb-8">
+                <h2 class="text-2xl font-semibold text-gray-800">Upload a Photo</h2>
+                <p class="text-gray-600 mt-2">Upload a photo to identify the person</p>
+            </div>
+
+            <div id="dropZone" class="drop-zone rounded-lg p-12 text-center cursor-pointer mb-8">
+                <div class="flex flex-col items-center justify-center">
+                    <i class="fas fa-cloud-upload-alt text-4xl text-blue-500 mb-3"></i>
+                    <p class="text-gray-600">Drag & drop your photo here or click to browse</p>
+                    <p class="text-sm text-gray-500 mt-1">Supports: JPG, PNG (Max 5MB)</p>
+                </div>
+                <input type="file" id="fileInput" class="hidden" accept="image/*">
+            </div>
+
+            <div id="previewContainer" class="hidden mb-8">
+                <h3 class="text-lg font-medium text-gray-800 mb-4">Preview</h3>
+                <div class="flex justify-center">
+                    <img id="imagePreview" class="max-h-64 rounded-lg shadow-sm">
+                </div>
+            </div>
+
+            <div id="resultContainer" class="hidden">
+                <h3 class="text-lg font-medium text-gray-800 mb-4">Identification Result</h3>
+                <div class="bg-gray-50 rounded-lg p-6">
+                    <div class="flex items-center space-x-6">
+                        <img id="resultImage" class="w-24 h-24 rounded-full object-cover">
+                        <div>
+                            <h4 id="resultName" class="text-xl font-semibold text-gray-800"></h4>
+                            <p id="resultAge" class="text-gray-600"></p>
+                            <p id="resultConfidence" class="text-sm text-gray-500 mt-1"></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="errorContainer" class="hidden bg-red-50 text-red-600 p-4 rounded-lg mb-8"></div>
+
+            <button id="identifyBtn" class="w-full bg-blue-600 hover:bg-blue-700 text-white font-medium py-3 px-4 rounded-lg transition duration-200 hidden">
+                <i class="fas fa-search mr-2"></i> Identify Person
+            </button>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
