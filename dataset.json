@@ -25,7 +25,7 @@
         "image_url": "https://images.pexels.com/photos/1680172/pexels-photo-1680172.jpeg"
     },
     {
-        "name": "Vaibhavi Kolhe",
+        "name": "Disha Kamalaskar",
         "age": 20,
         "image_url": "uploads/photo1.jpg"
     },
@@ -33,5 +33,75 @@
         "name": "Piyusha Bhadange",
         "age": 22,
         "image_url": "uploads/photo2.jpg"
+    },
+    {
+        "name": "Sushant Joshilkar",
+        "age": 22,
+        "image_url": "uploads/photo3.jpeg"
+    },
+    {
+        "name": "Rushikesh Hirey",
+        "age": 22,
+        "image_url": "uploads/photo4.jpeg"
+    },
+    {
+        "name": "Samruddhi Khadse",
+        "age": 22,
+        "image_url": "uploads/photo5.jpeg"
+    },
+    {
+        "name": "Saurabh Isane",
+        "age": 22,
+        "image_url": "uploads/photo6.jpeg"
+    },
+    {
+        "name": "Sarvesh Gadkari",
+        "age": 22,
+        "image_url": "uploads/photo7.jpeg"
+    },
+    {
+        "name": "Harshal Kenjale",
+        "age": 22,
+        "image_url": "uploads/photo8.jpeg"
+    },
+    {
+        "name": "Sanchit Khodkar",
+        "age": 22,
+        "image_url": "uploads/photo9.jpeg"
+    },
+    {
+        "name": "Rohan Keskar",
+        "age": 22,
+        "image_url": "uploads/photo10.jpeg"
+    },
+    {
+        "name": "Jayesh Joshi",
+        "age": 22,
+        "image_url": "uploads/photo11.jpeg"
+    },
+    {
+        "name": "Rohan Ghanekar",
+        "age": 22,
+        "image_url": "uploads/photo12.jpeg"
+    },
+    {
+        "name": "Avishkar Khose",
+        "age": 22,
+        "image_url": "uploads/photo13.jpeg"
+    },
+    {
+        "name": "Dr. Harsha Bhute",
+        "age": 43,
+        "image_url": "uploads/photo14.jpeg"
+    },
+    {
+        "name": "Dr. Harsha Bhute",
+        "age": 43,
+        "image_url": "uploads/photo14-1.jpeg"
+    },
+    {
+        "name": "Dr. Harsha Bhute",
+        "age": 43,
+        "image_url": "uploads/photo14-2.jpeg"
     }
 ]
